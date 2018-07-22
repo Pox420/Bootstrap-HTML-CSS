@@ -1,0 +1,216 @@
+.bgimage {
+  background-image: url('../img/img1.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 820px;
+}
+
+.set {
+  padding-top: 300px;
+  box-sizing: border-box;
+}
+
+.set h2 {
+  font-size: 50px;
+}
+
+.our-services {
+  padding: 100px 0px 60px;
+  height: 700px;
+}
+
+.our-services h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.rowsetting {
+  margin: 50px 0px;
+}
+
+.rowsetting p {
+  line-height: 1.5em;
+  padding: 10px;
+  color: #6c757d !important;
+}
+
+.rowsetting h2 {
+  margin-top: 20px;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.fa {
+  margin-top: 23px;
+}
+
+/* portfolio */
+
+.Portfolio {
+  height: 1100px;
+  width: 100%;
+  padding: 100px 0px 50px;
+}
+
+.Portfolio h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 40px;
+}
+
+/* ourteam */
+
+.ourteam {
+  height: 700px;
+  padding: 100px 10px 60px;
+  width: 100%;
+}
+
+.ourteam h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.ourteam p {
+  font-size: 20px;
+}
+
+.ourteam .row {
+  margin-top: 80px;
+}
+
+.ourteam img {
+  margin-bottom: 30px;
+}
+
+.ourteam .figure h4 {
+  font-size: 30px;
+}
+
+/* footer */
+
+.foot {
+  height: 50px;
+  background-color: #c4b6b6;
+
+}
+
+.foot h5 {
+  line-height: 50px;
+  margin-bottom: 0px;
+}
+
+/* Responsive */
+
+@media(min-width: 992px) {
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media(min-width: 575px) and (max-width: 767px) {
+  .set h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+
+  }
+  .set h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .our-services {
+    height: 1200px;
+  }
+  .Portfolio {
+    height: 3300px;
+  }
+
+  .ourteam {
+    height: 1250px;
+
+  }
+}
+
+@media(min-width: 293px) and (max-width: 667px) {
+  .set h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .set h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+  }
+  .our-services {
+    height: 1200px;
+  }
+  .Portfolio {
+    height: 2800px;
+  }
+  .ourteam {
+    height: 1300px;
+
+  }
+  .ourteam h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .ourteam p {
+    font-size: 15px;
+  }
+}
+
+
+s
+
+
+@media(max-width: 292px) {
+  .set h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+
+  }
+  .set h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .our-services {
+    height: 1200px;
+  }
+
+  .Portfolio {
+    height: 2700px;
+  }
+  .ourteam {
+    height: 1500px;
+
+  }
+
+  .ourteam h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .ourteam p {
+    font-size: 15px;
+  }
+
+  .foot h5 {
+    line-height: 50px;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+}
